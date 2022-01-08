@@ -1,0 +1,57 @@
+{
+  "name": "react-text-fade-rotator",
+  "version": "0.0.1",
+  "description": "fades text in and out",
+  "homepage": "https://github.com/timbrownls20/react-text-fade-rotator",
+  "keywords": [
+    "react",
+    "text",
+    "fade",
+    "rotation"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "update": "npx npm-check-updates -u && npm install && npm test"
+  },
+  "author": "Tim Brown",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timbrownls20/react-text-fade-rotator"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@types/jest": "^27.4.0",
+    "@types/lodash": "^4.14.178",
+    "jest": "^27.4.7",
+    "source-map-loader": "^3.0.1",
+    "ts-jest": "^27.1.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "roots": [
+      "<rootDir>/src"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
