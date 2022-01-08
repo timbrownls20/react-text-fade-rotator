@@ -1,6 +1,9 @@
 module.exports = {
   mode: "development",
   entry: "./src/index.tsx",
+  output: {
+    filename: "index.js",
+  },
   module: {
     rules: [
       {
@@ -19,11 +22,11 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
-        use: ['file-loader']
-      }
+        use: ["file-loader"],
+      },
     ],
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js", "css"],
-  }
+  },
 };

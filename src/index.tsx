@@ -2,6 +2,8 @@ import React, { useEffect, useState, useRef } from "react";
 import { WaitFor } from "./Wait";
 import styles from "./index.module.css";
 
+export const Version = "0.0.1";
+
 enum Phase {
   GetText = 1,
   ShowText = 2,
