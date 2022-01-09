@@ -1,9 +1,9 @@
 {
   "name": "react-text-fade-rotator",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "",
   "main": "dist/index.js",
-  "types": "dist/src/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "start": "webpack serve --config webpack.config.js",
@@ -11,7 +11,17 @@
     "build-and-start": "webpack && serve -s dist",
     "update": "npx npm-check-updates -u && npm install && npm test"
   },
-  "keywords": ["text", "fade", "rotation"],
+  "files": [
+    "dist/*.js",
+    "dist/**/&.js",
+    "dist/*.d.ts",
+    "dist/**/&.d.ts"
+  ],
+  "keywords": [
+    "text",
+    "fade",
+    "rotation"
+  ],
   "author": "Tim Brown",
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 module.exports = {
   mode: "development",
-  entry: "./src/index.tsx",
+  entry: "./index.tsx",
   output: {
     filename: "index.js",
   },
@@ -28,5 +28,5 @@ module.exports = {
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js", "css"],
-  },
+  }
 };

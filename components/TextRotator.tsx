@@ -1,8 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { WaitFor } from "./Wait";
-import styles from "./index.module.css";
-
-export const Version = "0.0.1";
+import styles from "./TextRotator.module.css";
 
 enum Phase {
   GetText = 1,
