@@ -9,7 +9,8 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "declaration": true
+    "declaration": true,
+    "removeComments": false
   },
-  "exclude": ["**/*.test.ts", "**/*.mock.ts"]
+  "exclude": ["**/*.test.ts", "**/*.mock.ts", "**/__mocks__/**", "./dist/**/*"]
 }
