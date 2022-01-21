@@ -9,6 +9,7 @@
     "start": "webpack serve --config webpack.config.js",
     "build": "webpack",
     "build-and-start": "webpack && serve -s dist",
+    "build-package": "tsc",
     "update": "npx npm-check-updates -u && npm install && npm test"
   },
   "files": [
